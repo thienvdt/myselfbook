@@ -1,1 +1,1 @@
-worker: python app.py --log-file -
+web: gunicorn gettingstarted.wsgi --log-file -
