@@ -1,4 +1,4 @@
-flask db_drop
-flask db_create
-flask db_seed
+worker: flask db_drop
+worker: flask db_create
+worker: flask db_seed
 web: gunicorn app:app
