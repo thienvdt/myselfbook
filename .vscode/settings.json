@@ -2,5 +2,6 @@
     "cSpell.words": [
         "request"
     ],
-    "python.pythonPath": "C:\\Python27\\python.exe"
+    "python.pythonPath": "C:\\Python27\\python.exe",
+    "python.linting.pylintArgs": ["--load-plugins", "pylint-flask"]
 }
